@@ -1,2 +1,1 @@
-# tredu 
-# commit toimii
+# Tredu 
