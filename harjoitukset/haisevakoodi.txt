@@ -1,0 +1,1 @@
+Haiseva koodi on ohjelmistokehityksessä koodin huonoa selostusta esim. Sisennystä tai merkkien käyttöä.
