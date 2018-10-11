@@ -1,0 +1,115 @@
+html, body {
+	height:100%;
+	margin:0;
+}
+
+.image {
+	position:relative;
+}
+
+.img {
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	height:300px;
+	width:200px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#0091C9 ;
+    color: white;
+    text-align: center;
+	display:inline-block;
+}
+
+
+a {
+	font-family:"Verdana";
+	font-size:24px;
+	border-style:solid white;
+    padding: 14px 16px;
+    text-decoration: none;
+	text-align:center;
+	background-color:white;
+	border-style:solid;
+	border-color:black;
+	margin:0;
+	overflow:hidden;
+	float:left;
+	color:black;
+}
+a:hover {
+    background-color:#0091C9;
+}
+a:active {
+    background-color:#0091C9;
+}
+
+.container {
+    background:rgba(255, 99, 71, 0.8);
+    border-radius:10px;
+    width:50%;
+    margin:auto;
+    margin-top:70px;
+    padding:5px;
+}
+
+h1 {
+    font-family:"Verdana";
+    text-align:center;
+    opacity:1.0;
+    color:black;
+}
+p {
+    font-family:"Verdana";
+    font-size:20px;
+    text-align:center;
+    opacity:1.0;
+    color:black;
+}
+
+
+/* ID-elementit */
+
+#ilmo {
+    width:50%;
+    color:white;
+    text-decoration:none;
+    font-family:"Times";
+    font-size:24px;
+    text-align:center;
+}
+
+#nappi {
+    background-color:#0091C9;
+    text-decoration:none;
+    color:white;
+    font-family:"Arial";
+    padding:6px;
+	margin:auto;
+	display:block;
+    border-radius:10px;
+    font-size:16px;
+}
+
+
+#naviteksti {
+    display: block;
+    color: black;
+	font-family:"Arial";
+	font-size:20px;
+	border-style:solid white;
+    padding: 14px 16px;
+    text-decoration: none;
+	text-align:left;
+	border-color:Solid Black;
+}
+
+#footer {
+	color:white;
+}
+
+
