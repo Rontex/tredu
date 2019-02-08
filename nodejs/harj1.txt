@@ -1,0 +1,16 @@
+function lasku(a, b)
+{
+    if(a === undefined || a === null)
+    {
+        throw new Error('Nolla tai muu parametri annettu');
+    }
+    let summa = Number(a) + Number(b);
+    console.log(summa);
+    if(Number.isNaN(summa))
+    {
+        throw new Error('Ei luku');
+    }
+    
+    return summa;
+}
+module.exports = ;
