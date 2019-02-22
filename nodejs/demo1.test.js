@@ -1,4 +1,4 @@
-const sum = require('./sum');
+﻿const sum = require('./demo1');
 
 test('suorittaa yhteenlaskun 1 + 2, tulos 3', () => 
 {

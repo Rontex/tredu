@@ -1,10 +1,15 @@
 function ala(kanta,korkeus)
 {
-    if (ika == null || ika == undefined)
+    if (kanta == null || kanta == undefined || korkeus == null || korkeus == undefined)
     {
-        throw new Error("Ei argumenttia");
+        throw new Error("Väärä argumentti");
     }
-    ika = Number(ika);
+    tulos = (Number(kanta) * Number(korkeus)) / 2;
+    if (Number.isNaN(tulos))
+    {
+        throw new Error("Ei luku");
+    }
+    return tulos;
     
 }
-module.exports = ;
+module.exports = ala;
